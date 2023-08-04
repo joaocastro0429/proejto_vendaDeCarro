@@ -1,0 +1,147 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Source+Code+Pro:wght@500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #eee9e9;
+    font-family: 'roboto', sans-serif;
+    font-size: 15px;
+}
+
+.header {
+    background-color: #7b64a8;
+    color: #fff;
+    height: 200px;
+    
+    
+}
+.header h3{
+    padding: 20px;
+  
+}
+
+.container{
+    width: 600px; 
+     height: 100hw;
+    background-color: #fff;
+    justify-content: center;
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+   color: #8a8a8a;
+
+    
+    
+}
+
+
+
+.principal{
+    color: #7b64a8;
+    text-align: center;
+    border: 2px 2px 5px #7b64a8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section{
+    display: block;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.section .secundario{
+    color: #000;
+}
+.section p{
+    margin-top: 20px;
+}
+
+.section input{
+    display: block;
+    width: 300px;
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+   border-bottom: 2px solid #dbd0d0;    
+    
+}
+
+.linha{
+    border: 1px solid #7b64a8;
+    width: 190px;
+    margin-left:200px ;
+}
+
+.radio{
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 100px;
+    margin-right: 80px;
+    right:  230px;
+   
+}
+
+.radio-left{
+    position: relative;
+    right: 800px;
+
+}
+
+/* .radio-left{
+    margin-right: 80px;
+} */
+.radio input{
+    justify-content: center;
+    align-items: center;
+    top: -15px;
+    margin-left: -200px;
+    position: relative;
+    margin-left: 20px;
+    left: 50px;
+}
+
+.radio{
+    position: relative;
+}
+
+#checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    
+}
+.checkbox{
+    position:relative ;
+    left: 20px;
+}
+
+
+.checkbox input {
+    position: relative;
+    bottom: -10px;
+    left: 50px;
+}
+button{
+    padding: 10px 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: #7b64a8;
+    color: #fff;
+}
+
